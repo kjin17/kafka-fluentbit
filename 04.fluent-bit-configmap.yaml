@@ -50,7 +50,7 @@ data:
     [OUTPUT]
         Name           kafka
         Match          *
-        Brokers        broker-service.kafka.svc.cluster.local:9092
+        Brokers        kafka-service.kafka.svc.cluster.local:9092
         Topics         ops.kube-logs-fluentbit.stream.json.001
         Timestamp_Key  @timestamp
         Retry_Limit    false
